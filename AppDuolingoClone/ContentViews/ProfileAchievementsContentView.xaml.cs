@@ -10,5 +10,10 @@ namespace AppDuolingoClone.ContentViews
         {
             InitializeComponent();
         }
+        
+        void OnAchievementSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            lv.SelectedItem = null;
+        }
     }
 }
